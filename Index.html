@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Hw11.css">
+    <script src="Script11.js"></script>
+
+</head>
+
+ <div id="fadeout">
+
+        <h1>The Temperature Calculator</h1>
+
+
+        <p>
+            Temperature :
+
+            <input id="temp" type="text" name="temperature" maxlength="3" /> 
+        </p>
+
+            <input id="Celcius" type="radio" name="degree" checked="checked" /> Celsius
+
+            <input id="Fahrenheit" type="radio" name="degree" /> Fahrenheit
+        
+
+
+        <button id="convert" class="button">Convert</button>
+
+        <p>
+            Result:
+            <input id="Results" type="text" name="degree" maxlength="3" />
+        </p>
+
+
+
+        
+
+   <button id="tryagain" onclick="clearfields()" class="button">Try Again</button> 
+
+  <button id="exit" class="button" onclick="fadeout()">Exit</button>
+
+    </div>
+
+
+    <h1 id="goodbye"></h1>
+
+
+
+</body>
+</html>
